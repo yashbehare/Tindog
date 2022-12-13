@@ -1,0 +1,163 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4 { 
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.p{
+    color: #8f8f8f;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Headings ________________________________________________________ */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+/* Navbar ________________________________________________________ */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+
+/* Download buttons */
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* Tittle section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+/* Tittle image */
+
+.title-image {
+    width: 300px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Feacture section _________________________________________________ */
+
+#features{
+    position: relative;
+}
+.feature-box{
+    padding: 4%;
+}
+.feature-tittle{
+    font-size: 1.5rem;
+}
+.icon{
+    color: #ef8172;
+    padding: 5%;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials _____________________________________________________ */
+
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* Pricing section _________________________________________________ */
+
+.card{
+    margin: 5%;
+    /* box-shadow: 0px 0px 10px 0px; */
+}
+.card:hover{
+    box-shadow: 0px 0px 10px 10px #ef8172;
+}
+#pricing{
+    /* padding: 5% 10%; */
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+.pricing-text{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+/* Call to Action ___________________________________________________ */
+
+
+
+/* Footer __________________________________________________________ */
+
+.footer-icon{
+    margin: 20px 10px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Media Query ______________________________________________________ */
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        transform: rotate(0deg);
+        position: static;
+    }
+}
